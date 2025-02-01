@@ -358,7 +358,7 @@ ip route 0.0.0.0 0.0.0.0 10.21.21.4
 int gi 0/0/0
 ip nat inside
 int gi 0/0/1
-ip nat ouotside
+ip nat outside
 access-list 8 permit any
 ip nat inside source list 8 interface gi 0/0/1 overload
 end
